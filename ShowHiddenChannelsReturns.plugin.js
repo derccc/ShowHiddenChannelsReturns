@@ -901,3 +901,23 @@
 		};
 	})(window.BDFDB_Global.PluginUtils.buildPlugin(config));
 })();
+{
+	"all": {
+		"blacklist": [],
+		"channels": {
+			"GUILD_CATEGORY": true,
+			"GUILD_TEXT": true,
+			"GUILD_VOICE": true,
+			"GUILD_ANNOUNCEMENT": true,
+			"GUILD_STORE": true,
+			"GUILD_STAGE_VOICE": true
+		},
+		"general": {
+			"showVoiceUsers": true,
+			"showForNormal": true
+		},
+		"sortOrder": {
+			"hidden": "native"
+		}
+	}
+}
